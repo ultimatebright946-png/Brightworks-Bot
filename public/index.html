@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>BrightWorks Bot</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>⚡ BRIGHTWORKS BOT</h1>
+    <p>Your WhatsApp bot control center</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>🤖 Bot Dashboard</h2>
+      <p id="status">Website is online. Bot connection is not checked yet.</p>
+      <button onclick="showCommands()">View Commands</button>
+    </section>
+
+    <section class="card">
+      <h2>📜 Command Menu</h2>
+      <div id="commands" hidden>
+        <p><b>General:</b> .help, .menu, .info, .owner, .ping, .profile, .rank, .rules</p>
+        <p><b>Admin:</b> .kick, .add, .promote, .demote, .mute, .unmute, .tagall, .hidetag</p>
+        <p><b>Moderation:</b> .warn, .warnings, .antilink, .antispam, .welcome, .goodbye</p>
+        <p><b>Fun:</b> .gay, .ship, .8ball, .joke, .quote, .meme, .truth, .dare, .roast, .simp</p>
+      </div>
+    </section>
+  </main>
+
+  <footer>Created by BrightWorks ✨</footer>
+  <script src="script.js"></script>
+</body>
+</html>
